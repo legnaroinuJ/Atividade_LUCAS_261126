@@ -6,11 +6,10 @@ Repositório contendo os scripts de definição de estrutura (DDL) do banco de d
 
 * **SGBD:** MySQL 8.0 (`8.0.45`)
 * **Engine:** InnoDB
-* **Charset / Collation:** `utf8mb4` / `utf8mb4_0900_ai_ci`
 
 ## Estrutura de Arquivos
 
-Os scripts estão divididos por tabela conforme exportação do MySQL Workbench:
+Esses são os scripts enviados, que foram trabalhados em aulas
 
 | Arquivo | Tabela | Descrição |
 | :--- | :--- | :--- |
@@ -26,7 +25,7 @@ Os scripts estão divididos por tabela conforme exportação do MySQL Workbench:
 
 ## Como Restaurar o Banco
 
-Como a tabela `hospedagens` possui chaves estrangeiras apontando para `enderecos` e `proprietario`, execute os scripts respeitando a ordem de dependência abaixo:
+Como a tabela `hospedagens` possui chaves estrangeiras apontando para `enderecos` e `proprietario`, execute os scripts respeitando a ordem:
 
 ### Via Terminal (MySQL CLI)
 
