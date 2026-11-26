@@ -48,3 +48,5 @@ mysql -u seu_usuario -p plataforma_hospedagem < plataforma_hospedagem_hospedagen
 1. 🔌 Conecte-se ao seu servidor MySQL e crie o schema `plataforma_hospedagem`.
 2. 📥 Acesse **Server > Data Import**.
 3. 📄 Selecione **Import from Self-Contained File** e execute os arquivos seguindo a mesma ordem: `proprietario`, `enderecos`, `cliente` e, por último, `hospedagens`.
+
+ATIVIDADES REALIZADAS EM AULA DO CURSO DE DESENVOLVIMENTO DE SISTEMAS.
